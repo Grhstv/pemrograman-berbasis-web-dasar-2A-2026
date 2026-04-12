@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA Gaming Keyboard</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        body {
+            background: #0f172a;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            
+        }
+
+        header h1 {
+            color: #22c55e;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #22c55e;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 10%;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-text h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            margin-bottom: 20px;
+            color: #cbd5f5;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: #22c55e;
+            color: #000;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #16a34a;
+            transform: translateY(-3px);
+        }
+
+        .hero img {
+            width: 400px;
+            border-radius: 15px;
+        }
+
+        .features {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .features h2 {
+            margin-bottom: 40px;
+        }
+
+        .feature-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Produk tambahan */
+        .products {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .products h2 {
+            margin-bottom: 40px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background: #1e293b;
+            border-radius: 15px;
+            padding: 20px;
+            width: 260px;
+            transition: 0.3s;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact {
+            padding: 60px 10%;
+            text-align: center;
+            background: #020617;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            color: #cbd5f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>AULA</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>AULA F75 Pro Gaming Keyboard</h2>
+            <p>
+                Keyboard mechanical gaming dengan RGB lighting dan performa tinggi untuk pengalaman bermain maksimal.
+            </p>
+            <button class="btn">Beli Sekarang</button>
+        </div>
+
+        <img src="https://www.aulagaming.com/cdn/shop/files/png1_WH_850x850px.webp?v=1763003939" alt="keyboard">
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <h2>Keunggulan Produk</h2>
+
+        <div class="feature-list">
+            <div class="card">
+                <h3>RGB Lighting</h3>
+                <p>Efek RGB keren dan customizable.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mechanical Switch</h3>
+                <p>Respons cepat dan presisi tinggi.</p>
+            </div>
+
+            <div class="card">
+                <h3>Ergonomic</h3>
+                <p>Nyaman digunakan lama.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk -->
+    <section class="products" id="products">
+        <h2>Varian Produk AULA</h2>
+
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://www.aulagaming.com/cdn/shop/files/w68_WH_850x850px.webp?v=1753502264" alt="">
+                <h3>AULA WIN68</h3>
+                <p>Keyboard compact 68% dengan desain stylish dan RGB modern.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.aulagaming.com/cdn/shop/files/win60__WH_850x850px.webp?v=1755135939" alt="">
+                <h3>AULA WIN60</h3>
+                <p>Keyboard 60% minimalis, cocok untuk gamer dan setup clean.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@aula.com</p>
+        <p>Instagram: @aula.gaming</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 AULA Gaming. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
